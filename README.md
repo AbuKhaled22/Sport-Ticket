@@ -38,10 +38,11 @@ This is a full-stack web application for purchasing sports tickets. Users can br
 
 ### Note:
 add a table in the database the table name is (products) and the elements:
+
 1. 
-name:"Team USA vs Germany FIBA World Cup"
-price:150
-img:"https://resources.prod.fiba.pulselive.com/fiba-courtside/photo/2023/09/07/111320da-dd8f-4aee-b9c9-0e30bb5b3f83/USA-v-Germany.JPG"}
+- name:"Team USA vs Germany FIBA World Cup"
+- price:150
+- img:"https://resources.prod.fiba.pulselive.com/fiba-courtside/photo/2023/09/07/111320da-dd8f-4aee-b9c9-0e30bb5b3f83/USA-v-Germany.JPG"}
 
 2.
 - name:"barcelona VS real madrid"
