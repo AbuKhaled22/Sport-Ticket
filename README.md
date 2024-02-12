@@ -44,19 +44,19 @@ price:150
 img:"https://resources.prod.fiba.pulselive.com/fiba-courtside/photo/2023/09/07/111320da-dd8f-4aee-b9c9-0e30bb5b3f83/USA-v-Germany.JPG"}
 
 2.
-name:"barcelona VS real madrid"
-price: 60
-img: "https://www.fcbarcelona.com/photo-resources/2023/10/26/03879242-a327-4753-8866-5a93929484ab/HORARIS_NEW-Real_Madrid.jpg?width=1200&height=750"
+- name:"barcelona VS real madrid"
+- price: 60
+- img: "https://www.fcbarcelona.com/photo-resources/2023/10/26/03879242-a327-4753-8866-5a93929484ab/HORARIS_NEW-Real_Madrid.jpg?width=1200&height=750"
 
 3.
-name:"Al Hilal VS Al Nassr"
-price:45
-img: "https://image.discovery.indazn.com/ca/v2/ca/image?id=4pnxehb56bh11mxxq3m16rt1g_image-header_pIt_1700752737000&quality=70"
+- name:"Al Hilal VS Al Nassr"
+- price:45
+- img: "https://image.discovery.indazn.com/ca/v2/ca/image?id=4pnxehb56bh11mxxq3m16rt1g_image-header_pIt_1700752737000&quality=70"
 
 4. 
-name: "Barça VS Liverpool"
-price: 90
-img: "https://www.fcbarcelona.com/photo-resources/2019/04/30/791e280a-9a0b-4100-a67b-e7af908eb3f0/mini_3200x2000_Messi_Salah_PREVIA.jpg?width=1200&height=750"
+- name: "Barça VS Liverpool"
+- price: 90
+- img: "https://www.fcbarcelona.com/photo-resources/2019/04/30/791e280a-9a0b-4100-a67b-e7af908eb3f0/mini_3200x2000_Messi_Salah_PREVIA.jpg?width=1200&height=750"
 
 ## Future Update: Admin Page Implementation
 
