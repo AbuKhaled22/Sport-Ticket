@@ -5,8 +5,7 @@
 4- npm install react-dom
 */
 import React from 'react';
-import './css/responsive.css';
-import './css/bootstrap.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './css/style.css';
 import Home from './Home';
 import Shop from './Shop';
@@ -16,6 +15,7 @@ import Login from './Login';
 import { BrowserRouter as Router, Routes,Route, Link } from 'react-router-dom';
 import Sign_up from './Sign_up';
 import Cart from './Cart';
+import Control from './Control';
 
 
 class App extends React.Component {
@@ -67,6 +67,12 @@ class App extends React.Component {
                         <i className="fa fa-shopping-bag" aria-hidden="true"></i>
                       </Link>
                     </div>
+                    <div className="controle">
+                      <Link to="/control">
+                        <span>controle</span>
+                      </Link>
+                    </div>
+
                   </div>
                 </nav>
               </header>
@@ -87,6 +93,7 @@ class App extends React.Component {
               <Route path="/login" element={<Login />} />
               <Route path="/sign_up" element={<Sign_up />} />
               <Route path="/cart" element={<Cart />} />
+              <Route path="/control" element={<Control />} />
             </Routes>
             
             {/*<!-- info section -->*/}

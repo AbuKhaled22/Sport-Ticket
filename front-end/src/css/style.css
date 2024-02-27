@@ -266,9 +266,10 @@ a:focus {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+          
 }
 
-.shop_section .box .detail-box h6 span {
+.shop_section .box .detail-box h4 span {
   color: #db4f66;
 }
 
@@ -629,8 +630,8 @@ a:focus {
 
 
 .cart_section .img-box img {
-  max-width: 100%;
-  max-height: 100%;
+  max-width: 300px;
+  max-height: 300px;
   border-radius: 90px;
   border: 15px solid #a0e0b9;
 }
@@ -683,7 +684,7 @@ a:focus {
 
 .cart_section .quantity{
   font-size: 20px;
-  width: 80%;
+  width: 100%;
   
 }
 .cart_section hr{
@@ -693,6 +694,79 @@ a:focus {
 
 /*end cart section*/
 
+/*control section*/
+
+.control_section{
+  background-color: #d7e7de;
+  margin-left: 45px;
+  margin-right: 45px;
+  margin-bottom: 45px;
+
+}
+.control_section .display{
+  display: flex;
+  justify-content: center;  
+  background-color: #87b08c;
+  height: 500px;
+  
+
+}
+
+.control_section .option{
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 20px;
+  margin-top: 50px;
+  
+  
+  
+
+}
+
+.control_section li{
+  padding-bottom: 10px;
+}
+
+/*end control section*/
+
+/*Add section*/
+.add_section{
+  margin-top: 50px;
+  margin-bottom: 100px;
+  font-size: 30px;
+  
+}
+
+.add_section input::placeholder{
+  font-size: 20px;  
+}
+
+.add_section .form-control{
+  height:45px;
+  width: 80%;
+}
+
+.add_section .btn{
+  font-size: 20px;
+}
+/*end add section*/
+
+/*remove section*/
+
+.remove_section{
+  margin-top: 50px;
+  margin-bottom: 100px;
+  font-size: 30px;  
+}
+
+.remove_section input::placeholder{
+  font-size: 20px;  
+}
+
+.remove_section .form-control{
+  height:45px;
+  width: 80%;
+}
 
 
 /*Haiden class you can refer to the page inspect section*/
@@ -726,4 +800,5 @@ a:focus {
   margin: 0 10px;
   border: none;
 }
+
 
